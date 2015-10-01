@@ -37,6 +37,9 @@ public class goldbergMain : MonoBehaviour {
 				float distZ = Camera.main.transform.position.z - firstBall.position.z;
 				float camThetaXZ = Mathf.Atan(distX/distZ) ;
 				Camera.main.transform.Rotate(0, camThetaXZ, 0);
+				if (Camera.main.transform.eulerAngles.y >90) {
+					Camera.main.transform.eulerAngles = new Vector3(Camera.main.transform.eulerAngles.x, 90,0);
+				}
 			} else if (firstBall.position.z > -7) {
 				// pan camera up and rotate down to reveal title
 				Camera.main.transform.position += new Vector3 (-camPanSpeedX1 * Time.deltaTime , camPanSpeedY1 * Time.deltaTime,
@@ -150,11 +153,11 @@ public class goldbergMain : MonoBehaviour {
 				}
 			}
 			if (!(Camera.main.transform.position.x < 85)) {
-				Camera.main.transform.position += new Vector3 (11.1f * Time.deltaTime/5, 
-				                                               20.99f * Time.deltaTime/5,
-				                                               -15.7f * Time.deltaTime/5);
-				Camera.main.transform.eulerAngles += new Vector3 (33.84f * Time.deltaTime/5, 
-				                                               7.13f * Time.deltaTime/5, 0 );
+				Camera.main.transform.position += new Vector3 (11.1f * Time.deltaTime/3, 
+				                                               20.99f * Time.deltaTime/3,
+				                                               -15.7f * Time.deltaTime/3);
+				Camera.main.transform.eulerAngles += new Vector3 (33.84f * Time.deltaTime/3, 
+				                                               7.13f * Time.deltaTime/3, 0 );
 				/* I FORGOT HOW TO LERP LOL
 				 * float distance = Vector3.Distance(Camera.main.transform.position, startPos);
 				float total = Vector3.Distance(startPos, endPos);

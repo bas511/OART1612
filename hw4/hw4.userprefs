@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\goldbergMain.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\week5\Assets\scripts\rigidBodyMove.cs">
     <Files>
-      <File FileName="Assets\scripts\goldbergMain.cs" Line="133" Column="54" />
+      <File FileName="..\week5\Assets\scripts\rigidBodyMove.cs" Line="25" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
