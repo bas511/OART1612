@@ -14,6 +14,6 @@ public class timer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timeLeft -= Time.deltaTime / 15f;
-		clock.text = timeLeft.ToString() + " minutes left";
+		clock.text = ((int)(timeLeft)).ToString() + " minutes left";
 	}
 }
