@@ -46,9 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\interactionItems.cs" />
+     <Compile Include="Assets\scripts\backpack.cs" />
+     <Compile Include="Assets\scripts\backpackView.cs" />
+     <Compile Include="Assets\scripts\interactionGlasses.cs" />
+     <Compile Include="Assets\scripts\interactionPage2.cs" />
      <Compile Include="Assets\scripts\interactionsNPC.cs" />
      <Compile Include="Assets\scripts\movePlayer.cs" />
+     <Compile Include="Assets\scripts\timer.cs" />
+     <None Include="Assets\License - READ THIS.txt" />
+     <None Include="Assets\KG-TOU2013.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
