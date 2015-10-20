@@ -52,6 +52,7 @@
      <Compile Include="Assets\scripts\interactionPage2.cs" />
      <Compile Include="Assets\scripts\interactionsNPC.cs" />
      <Compile Include="Assets\scripts\movePlayer.cs" />
+     <Compile Include="Assets\scripts\startGame1.cs" />
      <Compile Include="Assets\scripts\timer.cs" />
      <None Include="Assets\License - READ THIS.txt" />
      <None Include="Assets\KG-TOU2013.txt" />
