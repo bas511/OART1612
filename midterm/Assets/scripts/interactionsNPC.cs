@@ -11,15 +11,17 @@ public class interactionsNPC : MonoBehaviour {
 		"hate him. Run along now.", "Hope you studied. If you didn't you'll be dead in the watuhs", "One of my students has" +
 		" an extra lab...he was saying he forgot his lunch money. He should be using lunch to study!", "I'm the bio teacher. Brandon" +
 		" hates biology so he didn't give me any flavor text. Sorry."};
-	string[] studentText = {"Hey, all this juveline delinquency is making me thirsty...I'll trade you a page " +
-		"of my report on Ben Franklin for a drink...","Thanks, and remember to do your homework yourself next time...",
-		"Go away, I'm studying for Mrs. Kapner's test 7th period!", "Looking for a scoop? Mrs. Shek in room 303 usually " +
-		"knows what's up.","Look, I can't help you out but I can tell you this: pay attention to all the blackboards. " +
-		"Good luck.","CRAP! I forgot there was a test. Hey! Trade your calculator for my math homework?", 
-		"Thanks! Now what was it... negative b plus or minus...", "Sorry...oops...Hey, I forgot my glasses. Did you happen to" +
-		" find a pair? I'll make it worth you while.", "I appreciate it. Here, take my essay on Macbeth.", "NOOOO I love ziti but I " +
-		"forgot my money...I'll do anything for some cash! Please help?", "Nice! Here, take my chemistry lab. Now, to make sure I'm first in" +
-		" line at lunch..."};
+	string[] studentText = {"Hey, all this juveline delinquency is making me thirsty...I'll trade you a page of my report on Ben Franklin for a drink...",
+		"Thanks, and remember to do your homework yourself next time...",
+		"Go away, I'm studying for Mrs. Kapner's test 7th period!", 
+		"Looking for a scoop? Mrs. Shek in room 303 usually knows what's up.",
+		"Look, I can't help you out but I can tell you this: pay attention to all the blackboards. Good luck.",
+		"CRAP! I forgot there was a test. Hey! Trade your calculator for my math homework?", 
+		"Thanks! Now what was it... negative b plus or minus...",
+		"Sorry...oops...Hey, I forgot my glasses. Did you happen to find a pair? I'll make it worth you while.", 
+		"I appreciate it. Here, take my essay on Macbeth.", 
+		"NOOOO I love ziti but I forgot my money...I'll do anything for some cash! Please help?",
+		"Nice! Here, take my chemistry lab. Now, to make sure I'm first in line at lunch..."};
 	string pressSpace = "Press Space to talk";
 	public Text prompt;
 	public Text dialogue;

@@ -12,9 +12,8 @@ public class backpack : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		items["WATER BOTTLE x 1"] = true;
-		desc["WATER BOTTLE x 1"] = "A water bottle. It's Poland Spring, but we both know it's not from Maine.";
 		items["CALCULATOR x 1"] = true;
-		items["LUNCHMONEY x 1"] = true;
+		items["LUNCH MONEY x 1"] = true;
 		items["GLASSES x 1"] = false;
 		items["PAGE 1*"] = false;
 		items["PAGE 2*"] = false;
